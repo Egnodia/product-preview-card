@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 500, 700;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Cream);
+    font-family: 'Montserrat';
+}
+
+.box{
+    display: flex;
+    border-radius: 18px;
+    background-color: var(--White);
+    max-width: 1440rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    width: 250px;
+    margin-right: 20px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.information{
+    padding: 20px;
+}
+
+.icon{
+    width: 20px;
+    margin: auto 10px;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .6rem;
+    color: var(--Darkgrayishblue);
+}
+
+h1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Fraunces';
+}
+
+p{
+    font-size: .8rem;
+    margin-bottom: 20px;
+    color: var(--Darkgrayishblue);
+}
+
+.prices{
+    display: flex;
+}
+
+.prices p{
+    font-family: 'Fraunces';
+    margin-right: 30px;
+    height: 35px;
+}
+
+.old{
+    margin: auto 0;
+    text-decoration: line-through;
+}
+
+.new{
+    font-size: 1.6rem;
+    color: var(--Darkcyan);
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--Darkcyan);
+    color: var(--White);
+    border: none;
+    border-radius: 5px;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 1440rem) and (min-width: 375rem) {
+    .container{
+        display: none;
+    }
+}

@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://your-live-site-url.com](https://productcardegnodi.netlify.app)
 
 
 ### Built with
@@ -38,6 +38,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [De'vante](https://www.your-site.com)
+- Website - [De'vante](https://devantetoussaint.netlify.app)
 - Frontend Mentor - [@Egnodia](https://www.frontendmentor.io/profile/Egnodia)
 
